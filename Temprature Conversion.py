@@ -8,7 +8,7 @@ print("Enter 2 if you want to convert from Fahrenheit")
 print("Enter 3 if you want to convert from Kelvin")
 #Taking input
 while True:
-    x = input('Enter your choice.. : ')
+    x = input('Enter your choice: ')
     y=int(x)
     # Logic to convert when Celsius is Given
     if y==1:
@@ -36,7 +36,7 @@ while True:
         print('Degrees Kelvin:\t\t\t'+str(temp_k))
     #Logic to solve when Kelvin is Given
     elif y==3:
-        temp = input('Given temperature in Kelvin: ')
+        temp = input('Given temperature in Kelvin:')
         temp_k = int(temp)
         temp_c = temp_k-273.15
         temp_f = (9/5*temp_c)+32
@@ -50,8 +50,8 @@ while True:
 
     else:
         print('Incorrect value')
-    for_quit = input('Enter y to quit')
-    if for_quit == 'y':
+    for_quit = input('Enter q to quit')
+    if for_quit == 'q':
         quit()
     else:
         continue
