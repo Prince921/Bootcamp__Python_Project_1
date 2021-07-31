@@ -22,6 +22,7 @@ while True:
         print('\nDegrees Celsius:\t\t'+str(temp_c))
         print('Degrees Fahrenheit:\t\t'+str(temp_f))
         print('Degrees Kelvin:\t\t\t'+str(temp_k))
+        print('printing....')
     #Logic to solve when Fahrenheit is Given
     elif y==2:
         temp = input('Given temperature in Fahrenheit: ')
